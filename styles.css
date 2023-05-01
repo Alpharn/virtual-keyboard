@@ -1,0 +1,22 @@
+.keyboard-row {
+    display: flex;
+  }
+  
+  .key {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 1px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .key.pressed {
+    background-color: lightblue;
+  }
+  
+  textarea {
+    display: block;
+    margin-bottom: 20px;
+  }
+  

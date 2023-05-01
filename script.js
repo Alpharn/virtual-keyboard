@@ -65,9 +65,7 @@ function handleMouseClick(e) {
 
 document.addEventListener('DOMContentLoaded', () => {
   createKeyboard();
-
   const keyboard = document.getElementById('keyboard');
-
   keyboard.addEventListener('mousedown', handleMouseClick);
   keyboard.addEventListener('mouseup', (e) => {
     if (e.target.classList.contains('key')) {

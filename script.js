@@ -67,7 +67,6 @@ document.addEventListener('DOMContentLoaded', () => {
   createKeyboard();
 
   const keyboard = document.getElementById('keyboard');
-  const textArea = document.getElementById('text-area');
 
   keyboard.addEventListener('mousedown', handleMouseClick);
   keyboard.addEventListener('mouseup', (e) => {
